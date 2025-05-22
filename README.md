@@ -25,6 +25,19 @@ The React and TypeScript based front-end app showing the world's fastest product
 - PHP
 
 
+## 📸 REST API Testing   
+
+- Start with https://ebikesapi.ryanhunter.ca/api/read.php  
+- Then ... 
+- C | PUT | [host]/api/create.php  OR  https://ebikesapi.ryanhunter.ca/api/create.php 
+- R | GET All | [host]/api/read.php  OR https://ebikesapi.ryanhunter.ca/api/read.php 
+- R | GET by ID | [host]/api/api/read_single.php?id=1  OR https://ebikesapi.ryanhunter.ca/api/read_single.php?id=1
+- U | UPDATE | [host]/api/update.php  OR https://ebikesapi.ryanhunter.ca/api/update.php
+- D | DELETE by ID | [host]/api/delete.php  | OR https://ebikesapi.ryanhunter.ca/api/delete.php  
+- Enjoy!  
+
+
+
 
 ## 🚀 Getting Started (Dev)
 
