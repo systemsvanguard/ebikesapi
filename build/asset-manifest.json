@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f446001.css",
+    "main.js": "/static/js/main.8b23919a.js",
+    "static/js/453.afa65059.chunk.js": "/static/js/453.afa65059.chunk.js",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/10K_kick_practice.webp": "/static/media/10K_kick_practice.1fd22a2fda494b34ee44.webp",
+    "static/media/404_page_not_found.webp": "/static/media/404_page_not_found.e9f3519e28d1f67c2b17.webp",
+    "static/media/ryan_hunter.webp": "/static/media/ryan_hunter.e2c767f0d244fde15c91.webp",
+    "index.html": "/index.html",
+    "main.5f446001.css.map": "/static/css/main.5f446001.css.map",
+    "main.8b23919a.js.map": "/static/js/main.8b23919a.js.map",
+    "453.afa65059.chunk.js.map": "/static/js/453.afa65059.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f446001.css",
+    "static/js/main.8b23919a.js"
+  ]
+}

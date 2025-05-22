@@ -1,0 +1,138 @@
+{
+  "info": {
+    "name": "ebikesapi REST API",
+    "description": "Postman collection for testing the PHP REST API for ebikes.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "ebikesapi-collection-20250518034720"
+  },
+  "item": [
+    {
+      "name": "GET All Bikes",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost/ebikesapi/api/read.php",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "path": [
+            "ebikesapi",
+            "api",
+            "read.php"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET Bike By ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost/ebikesapi/api/read_single.php?id=1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "path": [
+            "ebikesapi",
+            "api",
+            "read_single.php"
+          ],
+          "query": [
+            {
+              "key": "id",
+              "value": "1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "POST Create Bike",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"manufacturer\": \"TestBrand\",\n  \"model\": \"X900\",\n  \"zero_60\": 2.8,\n  \"topspeed\": 150,\n  \"curb_weight\": 470,\n  \"horsepower\": 180,\n  \"torque\": 200,\n  \"price_start\": 32000,\n  \"picture\": \"test-x900.avif\",\n  \"wiki\": \"https://example.com/wiki\",\n  \"website\": \"https://example.com\",\n  \"promo_video\": \"https://youtube.com/example\",\n  \"summary\": \"Test electric motorcycle summary.\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost/ebikesapi/api/create.php",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "path": [
+            "ebikesapi",
+            "api",
+            "create.php"
+          ]
+        }
+      }
+    },
+    {
+      "name": "PUT Update Bike",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"id\": 1,\n  \"model\": \"Updated Model\",\n  \"summary\": \"Updated summary for model 1.\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost/ebikesapi/api/update.php",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "path": [
+            "ebikesapi",
+            "api",
+            "update.php"
+          ]
+        }
+      }
+    },
+    {
+      "name": "DELETE Bike",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"id\": 1\n}"
+        },
+        "url": {
+          "raw": "http://localhost/ebikesapi/api/delete.php",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "path": [
+            "ebikesapi",
+            "api",
+            "delete.php"
+          ]
+        }
+      }
+    }
+  ]
+}
