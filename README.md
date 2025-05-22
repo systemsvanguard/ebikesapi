@@ -1,14 +1,13 @@
 # ebikesapp  |  🏍️   EV Sport MotorBikes App
-A blog on the fastest production elecrtric motorbikes in the world currently.  Built as a front-end portfolio coding project, using React, Typescript, axios, Bootstrap version 5 CSS framework, Bootstrap Icons, and consumes a PHP and MySQL based REST API backend. (The backend project can be found here ). Enoy!
+A blog on the fastest production elecrtric motorbikes in the world currently.  Built as a front-end portfolio coding project, using React, Typescript, axios, Bootstrap version 5 CSS framework, Bootstrap Icons, and consumes a PHP and MySQL based REST API backend. The backend project can be found at [REST API Backend](https://github.com/systemsvanguard/ebikesapi). Enoy!
 
-https://ebikesapp.ryanhunter.ca/images/screens/screens_01_ebikesapp.webp
 
 ## 📸 Preview
 Live **Site Demo** ~ [The Fastest Electric Sports MotorBikes](https://ebikesapp.ryanhunter.ca/)  🏍️ 
 
 ![Screenshot of Front Page](https://ebikesapp.ryanhunter.ca/images/screens/screens_01_ebikesapp.webp) 
 React and TypeScript based front-end app showing the world's fastest production motorcycles currently. Pulls data from a PHP and MySQL based REST API backend also hosted in this GitHub as 'ebikesAPI'. Enjoy!
-![EV Sport Bikes Screenshot](public/images/screens/screens_01_ebikesapp.webp) 
+
 
 ## 🔧 Built With
 
@@ -29,17 +28,6 @@ React and TypeScript based front-end app showing the world's fastest production 
 - npm start 
 - Runs on port 3000 ---> http://localhost:3000/   
 - Please also see the related & prerequisite project, the backend REST API, located at  https://github.com/systemsvanguard/ebikesapi.git  ~ (ebikes API)     
-
-
-## Steps to Install 
-- Run the command below from the command line / terminal / command prompt.
-- git clone https://github.com/systemsvanguard/standandspeak.git  
-- cd standandspeak
-- ensure your have Node & NPM pre-installed. Run commands 'node --version && npm -v'.
-- npm install.  (This ensures all dependencies are installed).
-- npm run dev 
-- Runs on port 3000 ---> http://localhost:3000/  
-- Change the web port as needed.
 
 
 ## License
