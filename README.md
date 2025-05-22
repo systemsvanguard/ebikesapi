@@ -1,33 +1,41 @@
-# ebikesapp  |  🏍️   EV Sport MotorBikes App
-A blog on the fastest production elecrtric motorbikes in the world currently.  Built as a front-end portfolio coding project, using React, Typescript, axios, Bootstrap version 5 CSS framework, Bootstrap Icons, and consumes a PHP and MySQL based REST API backend. The backend project can be found at [REST API Backend](https://github.com/systemsvanguard/ebikesapi). Enoy!
+# ebikesapi  |  🏍️   EV Sport MotorBikes API 
+A RESTful API for a blog on the fastest production elecrtric motorbikes in the world currently.  Built using plain PHP (no framework) and MySQL for the database. 
+
+The frontend project can be found at [React & TypeScript Frontend](https://github.com/systemsvanguard/ebikesapp). Enjoy!
 
 
 ## 📸 Preview
-Live **Site Demo** ~ [The Fastest Electric Sports MotorBikes](https://ebikesapp.ryanhunter.ca/)  🏍️ 
+Live **REST API Demo** ~ [REST API ~ The Fastest Electric Sports MotorBikes](https://ebikesapi.ryanhunter.ca/)  🏍️ 
 
-![Screenshot of Front Page](https://ebikesapp.ryanhunter.ca/images/screens/screens_01_ebikesapp.webp) 
-React and TypeScript based front-end app showing the world's fastest production motorcycles currently. Pulls data from a PHP and MySQL based REST API backend also hosted in this GitHub as 'ebikesAPI'. Enjoy!
+Live **App Demo** ~ [Web App ~ The Fastest Electric Sports MotorBikes](https://ebikesapp.ryanhunter.ca/)  🏍️ 
+
+![Screenshot of REST API GET ALL Page](https://ebikesapp.ryanhunter.ca/images/screens/screens_08_ebikesapp.webp) 
+
+
+
+A PHP and MySQL based REST API backend hosted in this GitHub as 'ebikesAPI'. Enjoy!
+
+The React and TypeScript based front-end app showing the world's fastest production motorcycles currently, is also GitHub hosted here as "systemsvanguard/ebikesapp".   
 
 
 ## 🔧 Built With
 
-- React 18 + TypeScript
-- Bootstrap 5
-- Axios
-- React Router DOM
-- FontAwesome icons
-- Bootstrap icons
-- Google Fonts
+- MySQL database
+- JSON for Postman REST Collection
+- PHP
+
 
 
 ## 🚀 Getting Started (Dev)
 
-- git clone https://github.com/systemsvanguard/ebikesapp.git ~ (ebikes App)    
-- cd ebikesapp
-- npm install
-- npm start 
-- Runs on port 3000 ---> http://localhost:3000/   
-- Please also see the related & prerequisite project, the backend REST API, located at  https://github.com/systemsvanguard/ebikesapi.git  ~ (ebikes API)     
+- git clone https://github.com/systemsvanguard/ebikesapi.git ~ (ebikes API)    
+- cd ebikesapi 
+- Copy the web files to the "htdocs" or "www" folder of your web server.
+- On your MySQL database, create the databse, AND the databse user with credential.  Use file "config/db_config.php" to help you. 
+- For the MySQL database, use the default port 3306.
+- Run the relevant SQL commands from "workBench/evsportbikes.sql", to (i) create the 'ebike' table, and (ii) populate the table with the initial 14 records. 
+- Enjoy!   
+- Please also see the related & follow-up project, the frontend web app, located at  https://github.com/systemsvanguard/ebikesapp.git  ~ (ebikes App)     
 
 
 ## License
@@ -36,78 +44,20 @@ This project is licensed under the terms of the **MIT** license.
 
 ## Screenshots 
 
-![Screenshot # 1](https://ebikesapp.ryanhunter.ca/images/screens/screens_01_ebikesapp.webp)   
+![Screenshot # 1](https://ebikesapp.ryanhunter.ca/images/screens/screens_08_ebikesapp.webp)  
 
-![Screenshot # 2](https://ebikesapp.ryanhunter.ca/images/screens/screens_02_ebikesapp.webp)   
+![Screenshot # 2](https://ebikesapp.ryanhunter.ca/images/screens/screens_07_ebikesapp.webp) 
 
-![Screenshot # 3](https://ebikesapp.ryanhunter.ca/images/screens/screens_03_ebikesapp.webp)   
+![Screenshot # 3](https://ebikesapp.ryanhunter.ca/images/screens/screens_06_ebikesapp.webp)  
 
-![Screenshot # 4](https://ebikesapp.ryanhunter.ca/images/screens/screens_04_ebikesapp.webp)   
+![Screenshot # 4](https://ebikesapp.ryanhunter.ca/images/screens/screens_01_ebikesapp.webp)   
 
-![Screenshot # 5](https://ebikesapp.ryanhunter.ca/images/screens/screens_05_ebikesapp.webp)   
+![Screenshot # 5](https://ebikesapp.ryanhunter.ca/images/screens/screens_02_ebikesapp.webp)   
 
-![Screenshot # 6](https://ebikesapp.ryanhunter.ca/images/screens/screens_06_ebikesapp.webp)  
+![Screenshot # 6](https://ebikesapp.ryanhunter.ca/images/screens/screens_03_ebikesapp.webp)   
 
-![Screenshot # 7](https://ebikesapp.ryanhunter.ca/images/screens/screens_07_ebikesapp.webp)   
+![Screenshot # 7](https://ebikesapp.ryanhunter.ca/images/screens/screens_04_ebikesapp.webp)   
 
-![Screenshot # 8](https://ebikesapp.ryanhunter.ca/images/screens/screens_08_ebikesapp.webp)    
-
-
+![Screenshot # 8](https://ebikesapp.ryanhunter.ca/images/screens/screens_05_ebikesapp.webp)   
 
 
-
-
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```

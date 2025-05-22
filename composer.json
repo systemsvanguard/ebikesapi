@@ -1,0 +1,21 @@
+{
+    "name": "systemsvanguard/ebikesapi",
+    "description": "A PHP and MySQL based REST API backend for a electric e-bikes front-end web app built with React.js and TypeScript.  REST API for ebikes app.",
+    "type": "project",
+    "require": {
+        "ext-mysqli": "*",
+        "ext-pdo_mysql": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Systemsvanguard\\Ebikesapi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "systemsvanguard",
+            "email": "ryanhunterjnr@gmail.com"
+        }
+    ]
+}

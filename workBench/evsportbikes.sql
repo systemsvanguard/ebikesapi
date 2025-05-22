@@ -39,7 +39,7 @@ VALUES
 	(
 		'Lightning',
 		'LS-218',
-		2,
+		2.5,
 		218,
 		495,
 		244,
@@ -54,7 +54,7 @@ VALUES
 	(
 		'Damon',
 		'HyperSport Premier',
-		3,
+		3.0,
 		200,
 		440,
 		200,
@@ -159,7 +159,7 @@ VALUES
 	(
 		'Davinci',
 		'DC100',
-		3,
+		3.0,
 		124,
 		562,
 		135,
@@ -174,7 +174,7 @@ VALUES
 	(
 		'LiveWire',
 		'Del Mar S2',
-		3,
+		3.0,
 		124,
 		436,
 		80,
@@ -219,7 +219,7 @@ VALUES
 	(
 		'LiveWire',
 		'One',
-		3,
+		3.0,
 		110,
 		562,
 		100,
